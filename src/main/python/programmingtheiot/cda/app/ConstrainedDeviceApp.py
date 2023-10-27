@@ -1,11 +1,14 @@
 import logging
 
-from time import sleep
+import sys
+sys.path.append('/home/zabe/programmingtheiot/python-components/src/main/python')
 
-import programmingtheiot.common.ConfigConst as ConfigConst
+from time import sleep
 
 from programmingtheiot.common.ConfigUtil import ConfigUtil
 from programmingtheiot.cda.app.DeviceDataManager import DeviceDataManager
+import programmingtheiot.common.ConfigConst as ConfigConst
+
 
 logging.basicConfig(format = '%(asctime)s:%(name)s:%(levelname)s:%(message)s', level = logging.DEBUG)
 

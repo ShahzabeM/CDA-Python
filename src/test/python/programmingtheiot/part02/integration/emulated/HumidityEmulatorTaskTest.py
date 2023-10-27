@@ -16,6 +16,8 @@ import programmingtheiot.common.ConfigConst as ConfigConst
 
 from programmingtheiot.data.SensorData import SensorData
 from programmingtheiot.cda.emulated.HumiditySensorEmulatorTask import HumiditySensorEmulatorTask
+from pisense import SenseHAT
+
 
 class HumidityEmulatorTaskTest(unittest.TestCase):
 	"""
