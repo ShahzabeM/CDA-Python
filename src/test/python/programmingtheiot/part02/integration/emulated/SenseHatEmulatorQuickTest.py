@@ -10,9 +10,10 @@
 import logging
 import unittest
 
+
 from time import sleep
 
-from pisense import SenseHAT
+#from pisense import SenseHAT
 
 class SenseHatEmulatorQuickTest(unittest.TestCase):
 	"""
